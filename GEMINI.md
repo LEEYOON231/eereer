@@ -243,3 +243,4 @@ console.log(projectsInfo)  // 데이터 확인
 **템플릿 제작**: 백상 (@Mrbaeksang95)
 **YouTube**: https://www.youtube.com/@Mrbaeksang95
 **Website**: https://devcom.kr/
+git status
