@@ -34,16 +34,16 @@ export function Contact() {
   
   // 기본 데이터
   const defaultInfo = {
-    name: "당신의 이름",
-    title: "직책/직무",
+    name: "이윤",
+    title: "단국대학교 도시계획부동산학부",
     company: "",
-    experience: "3년 경력",
-    phone: "010-0000-0000",
-    email: "your-email@example.com",
+    experience: "부동산학전공",
+    phone: "010-2102-0634",
+    email: "dbstorl1@naver.com",
     website: "",
-    location: "당신의 위치",
-    workTime: "평일 09:00 - 18:00",
-    responseTime: "24시간 이내 응답",
+    location: "서울시 광진구",
+    workTime: " 09:00 - 18:00",
+    responseTime: "3학년",
     sectionTitle: "연락처",
     sectionSubtitle: "프로젝트 문의나 협업 제안을 기다리고 있습니다. 편하신 방법으로 연락주세요!",
     qrTitle: "QR 코드로 연락처 저장",
@@ -51,7 +51,7 @@ export function Contact() {
     bottomMessage: "함께 성장하는 파트너가 되겠습니다.",
     bottomSubMessage: "고객님의 성공적인 프로젝트를 위해 최선을 다하겠습니다.",
     qrContent: ["name","phone","email","location","website"],
-    profileEmoji: "👤",
+    profileEmoji: "",
     background: {"image":"","video":"","color":"","opacity":0.1}
   }
   
