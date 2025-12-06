@@ -39,7 +39,7 @@ export function Hero() {
     greeting: "안녕하세요,",
     name: "이윤",
     title: "학생입니다",
-    description: "프롭테크 기술로 부동산 시장을 분석합니다.",
+    description: "포기하지 않는 끈기와 긍정적인 에너지로 매 순간 도전합니다",
     profileImage: "/uploads/hero-profile-1764998319659.jpg",
     backgroundImage: "",
     backgroundVideo: "",
