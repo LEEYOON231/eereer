@@ -15,10 +15,10 @@ export function Projects() {
   const defaultInfo = {
     title: "프로젝트",
     subtitle: "프로젝트",
-    initialDisplay: 6,
+    initialDisplay: 4,
     loadMoreCount: 3,
     background: {"image":"","video":"","color":"","opacity":0.1},
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    projects: [{"image":"/uploads/project-0-1765004212977.png","video":"","title":"UNIQUERS X 신대홍 사업계획서","description":"이 사업계획서는 국내 펫코노미의 급성장에도 불구하고 부족한 '펫 금융과 헬스 융합' 시장의 공백을 해소하기 위한 AI 기반 펫 포트폴리오 뱅킹 서비스인 'My Pet Bank(마이 펫 뱅크)'를 제안"},{"image":"/uploads/project-1-1765004219607.png","video":"","title":"경매 물건 보고서","description":"본 보고서는 경기도 수원시 영통구 매탄동 임광아파트(사건번호 2023 타경 84047)에 대한 경매 물건 분석 자료"},{"image":"/uploads/project-1765003876929-1765003877119.png","video":"","title":"수안동 주상복합 개발사업 캐시플로우","description":"부산 수안구 동래동에 위치한 주상복합에 대해 총 매출, 토지/공사비 등의 비용, PF 대출 조건 및 이자 비용을 상세히 분석하여 프로젝트의 예상 수익성과 주요 재무 지표(LTV 등)를 분석"},{"image":"/uploads/project-1765004056577-1765004056753.png","video":"","title":"유리드 개발IM","description":"부산시 동래구 수안동 주상복합 개발사업(PF)에 대한 Information Memorandum(투자설명서)"},{"image":"/uploads/project-1765004991075-1765004991691.png","video":"","title":"신한은행 마케팅 활동","description":"트렌드를 반영한 콘텐츠를 직접 기획·제작하여 신한은행의 브랜드 이미지를 젊고 친근하게 제고하고 있습니다. 해당 영상 외에도 다양한 영상 제작"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
