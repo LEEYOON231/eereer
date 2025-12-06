@@ -98,7 +98,7 @@ export function About() {
   const defaultInfo = {
     title: "소개",
     subtitle: "당신의 전문성과 열정을 소개해주세요.",
-    background: {"image":"","video":"/uploads/about-background-video-1764999445188.mp4","color":"","opacity":0.4},
+    background: {"image":"","video":"","color":"","opacity":0.1},
     experienceCards: [{"icon":"graduation","title":"대원고등학교","period":"2017 ~ 2020","description":""},{"icon":"graduation","title":"단국대학교","period":"2021 - 현재","description":"도시계획부동산학부"},{"icon":"building","title":"법무법인 코러스","period":"2024.06 ~ 2024.08 ","description":"부동산 소유권 이전 및 저당권 말소"}],
     skills: [{"icon":"code","title":"컴퓨터 활용 능력","description":"엑셀 활용을 통해\n복잡한 수치를 한눈에 파악하기 쉬운 표와 그래프로 정리하는 데이터 시각화 능력을 갖췄습니다."},{"icon":"video","title":"디자인 및 편집 능력","description":"포토샵의 감각적인 디자인과 프리미어 프로의 디테일한 편집을 결합해, 기획 의도를 완벽하게 시각화합니다."},{"icon":"target","title":"기획 능력","description":"다양한 대외활동과 프로젝트를 주도적으로 기획하며, 매번 기대 이상의 확실한 성과를 증명해왔습니다."}],
     storyTitle: "나의 이야기",
