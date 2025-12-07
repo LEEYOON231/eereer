@@ -35,9 +35,9 @@ export function Contact() {
   // 기본 데이터
   const defaultInfo = {
     name: "이윤",
-    title: "단국대학교 도시계획부동산학부",
+    title: "단국대학교 도시계획부동산학부/경영학부",
     company: "",
-    experience: "부동산학전공",
+    experience: "부동산학전공/경영학전공",
     phone: "010-2102-0634",
     email: "dbstorl1@naver.com",
     website: "",
